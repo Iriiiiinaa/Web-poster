@@ -78,19 +78,20 @@ body{
     margin-left: 64.9%;
 }
 .box5{
-    width: 8vw;
-    height: 8vh;
-    border: 2h solid #181BDF;
+    width: 13vw;
+    height: 23vh;
+    border: 1vh solid #181BDF;
     position: absolute;
-    z-index: 2;
-    margin-top: 10%;
-    margin-left: 30%;
+    z-index: 3;
+    margin-top: 18.5%;
+    margin-left: 35.7%;
 }
 .box6{
-    width: 11.7vw;
-    height: 72vh;
+    width: 13vw;
+    height: 23vh;
+    border: 1vh solid #181BDF;
     position: absolute;
-    z-index: 2;
-    margin-top: 4%;
-    margin-left: 64.9%;
+    z-index: 3;
+    margin-top: 16.4%;
+    margin-left: 20.5%;
 }
