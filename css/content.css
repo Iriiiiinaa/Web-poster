@@ -1,7 +1,6 @@
 body{
     background-color: rgb(255, 255, 255);
     width: 100%;
-    overflow: hidden;
 }
 .box{
     width: 100%;
@@ -50,6 +49,24 @@ body{
     z-index: 2;
     margin-top: 4%;
 }
+.arrow{
+    width: 50%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+    animation: up 3s infinite linear;
+}
+.arrow img{
+    width: 50%;
+}
+@keyframes up {
+    0%{transform: translateY(-10vh)}
+    100%{transform: translateY(-60vh)}
+}
+
+
+/*
+animation-play-state: running;
 .box2{
     width: 11.7vw;
     height: 72vh;
@@ -95,3 +112,4 @@ body{
     margin-top: 16.4%;
     margin-left: 20.5%;
 }
+*/
