@@ -68,14 +68,14 @@ body{
     position: absolute;
     margin-top: 5%;
     margin-left: 40%;
-    animation: upp 3s infinite linear;
+    animation: upp 1s infinite linear;
 }
 .arrow1 img{
     width: 50%;
 }
 @keyframes upp {
-    0%{transform: translateY(-20vh)}
-    100%{transform: translateY(-60vh)}
+    0%{transform: translateY(-30vh)}
+    100%{transform: translateY(-80vh)}
 }
 
 
