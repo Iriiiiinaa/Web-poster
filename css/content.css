@@ -53,34 +53,44 @@ body{
     width: 50%;
     position: absolute;
     margin-top: 5%;
-    margin-left: 10%;
-    animation: up 3s infinite linear;
+    margin-left: 4%;
+    animation: up 2s infinite linear;
 }
 .arrow img{
     width: 50%;
 }
 @keyframes up {
-    0%{transform: translateY(-10vh)}
-    100%{transform: translateY(-60vh)}
+    0%{transform: translateY(-30vh)}
+    100%{transform: translateY(-65.5vh)}
 }
 .arrow1{
     width: 50%;
     position: absolute;
     margin-top: 5%;
-    margin-left: 40%;
-    animation: upp 1s infinite linear;
+    margin-left: 34%;
+    animation: upp 500ms infinite linear;
 }
 .arrow1 img{
     width: 50%;
 }
 @keyframes upp {
     0%{transform: translateY(-30vh)}
-    100%{transform: translateY(-80vh)}
+    100%{transform: translateY(-65.5vh)}
 }
-
-
-/*
-animation-play-state: running;
+.arrow2{
+    width: 50%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 64%;
+    animation: upp 4s infinite linear;
+}
+.arrow2 img{
+    width: 50%;
+}
+@keyframes upp {
+    0%{transform: translateY(-30vh)}
+    100%{transform: translateY(-65.5vh)}
+}
 .box2{
     width: 11.7vw;
     height: 72vh;
@@ -90,6 +100,15 @@ animation-play-state: running;
     margin-top: 4%;
     margin-left: 88.3%;
 }
+.cub{
+    
+}
+/*
+.arrow2:hover{
+    animation-play-state: paused;
+} - остановка анимации
+animation-play-state: running;
+
 .box3{
     width: 11.7vw;
     height: 72vh;
