@@ -464,14 +464,14 @@ body{
     font-size: 2.6vw;
 }
 .log{
-    width: 66.9%;
+    width: 72.8%;
     position: absolute;
     z-index: 3;
     margin-top: 46.55%;
-    margin-left: 55.5%;
+    margin-left: 47%;
 }
 .log img{
-    width: 66.9%;
+    width: 72.8%;
 }
 /*
 @keyframes twist {
