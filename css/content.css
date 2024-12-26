@@ -1151,7 +1151,7 @@ body{
     margin-left: 16%;
     position: absolute;
     z-index: 2;
-    animation: cuub 12s linear infinite;
+    animation: cuub 15s linear infinite;
 }
 @keyframes cuub{
     0%{ transform: translate(0vw, 0vh); width: 15vw; height: 40vh; border: 0.5vh solid #FE6807;}
@@ -1164,8 +1164,32 @@ body{
     52%{ transform: translate(14vw, 60vh); width: 16vw; height: 20vh;; border: 1vh solid #FE6807;}
     66.6%{ transform: translate(36vw, 5vh); width: 12vw; height: 24vh;; border: 1vh solid #FE6807;}
     68%{ transform: translate(36vw, 5vh); width: 12vw; height: 24vh;; border: 1vh solid #FE6807;}
-    82.3%{ transform: translate(70vw, 27vh); width: 12vw; height: 18vh;; border: 1vh solid #FE6807;}
-    84%{ transform: translate(70vw, 27vh); width: 12vw; height: 18vh;; border: 1vh solid #FE6807;}
+    83.3%{ transform: translate(70vw, 27vh); width: 12vw; height: 18vh;; border: 1vh solid #FE6807;}
+    85%{ transform: translate(70vw, 27vh); width: 12vw; height: 18vh;; border: 1vh solid #FE6807;}
+}
+.box25{
+    width: 16vw;
+    height: 40vh;
+    border: 0.5vh solid #FE6807;
+    margin-top: 0%;
+    margin-left: 16%;
+    position: absolute;
+    z-index: 2;
+    animation: cub2 15s linear infinite;
+}
+@keyframes cub2{
+    0%{ transform: translate(12vw, 40vh); width: 16vw; height: 10vh;; border: 1vh solid #FE6807;}
+    2%{ transform: translate(12vw, 40vh); width: 16vw; height: 10vh;; border: 1vh solid #FE6807;}
+    16.6%{ transform: translate(-12.5vw, 44vh); width: 14vw; height: 17vh;; border: 1vh solid #FE6807;}
+    18%{ transform: translate(-12.5vw, 44vh); width: 14vw; height: 17vh;; border: 1vh solid #FE6807;}
+    33.3%{ transform: translate(14vw, 60vh); width: 16vw; height: 20vh;; border: 1vh solid #FE6807;}
+    35%{ transform: translate(14vw, 60vh); width: 16vw; height: 20vh;; border: 1vh solid #FE6807;}
+    50%{ transform: translate(36vw, 5vh); width: 12vw; height: 24vh;; border: 1vh solid #FE6807;}
+    52%{ transform: translate(36vw, 5vh); width: 12vw; height: 24vh;; border: 1vh solid #FE6807;}
+    66.6%{ transform: translate(70vw, 27vh); width: 12vw; height: 18vh;; border: 1vh solid #FE6807;}
+    68%{ transform: translate(70vw, 27vh); width: 12vw; height: 18vh;; border: 1vh solid #FE6807;}
+    83.3%{ transform: translate(0vw, 0vh); width: 15vw; height: 40vh; border: 0.5vh solid #FE6807;}
+    85%{ transform: translate(0vw, 0vh); width: 15vw; height: 40vh; border: 0.5vh solid #FE6807;}
 }
 .box24{
     width: 15vw;
@@ -1175,13 +1199,25 @@ body{
     margin-left: 1%;
     position: absolute;
     z-index: 2;
-    animation: cub1 12s linear infinite;
+    animation: cub1 17s linear infinite;
 }
 @keyframes cub1{
     0%{ transform: translate(0vw, 0vh); width: 15vw; height: 15vh; border: 1vh solid #FE6807;}
-    20%{ transform: translate(65vw, -30vh); width: 15vw; height: 17vh; border: 0.5vh solid #FE6807;}
-    40%{ transform: translate(83vw, -20vh); width: 8vw; height: 23vh; border: 0.5vh solid #FE6807;}
-    60%{ transform: translate(73vw, 25vh); width: 12vw; height: 15vh; border: 0.5vh solid #FE6807;}
+    1%{ transform: translate(0vw, 0vh); width: 15vw; height: 15vh; border: 1vh solid #FE6807;}
+    12.5%{ transform: translate(65vw, -30vh); width: 15vw; height: 17vh; border: 0.5vh solid #FE6807;}
+    13.5%{ transform: translate(65vw, -30vh); width: 15vw; height: 17vh; border: 0.5vh solid #FE6807;}
+    25%{ transform: translate(83vw, -20vh); width: 8vw; height: 23vh; border: 1vh solid #FE6807;}
+    26%{ transform: translate(83vw, -20vh); width: 8vw; height: 23vh; border: 1vh solid #FE6807;}
+    37.5%{ transform: translate(70vw, 25vh); width: 15vw; height: 15vh; border: 0.5vh solid #FE6807;}
+    38.5%{ transform: translate(70vw, 25vh); width: 15vw; height: 15vh; border: 0.5vh solid #FE6807;}
+    50%{ transform: translate(58vw, 50vh); width: 10vw; height: 20vh; border: 1vh solid #FE6807;}
+    51%{ transform: translate(58vw, 50vh); width: 10vw; height: 20vh; border: 1vh solid #FE6807;}
+    62.5%{ transform: translate(50vw, 10vh); width: 12vw; height: 18vh; border: 1vh solid #FE6807;}
+    63.5%{ transform: translate(50vw, 10vh); width: 12vw; height: 18vh; border: 1vh solid #FE6807;}
+    75%{ transform: translate(40vw, 35vh); width: 15vw; height: 15vh; border: 0.5vh solid #FE6807;}
+    76%{ transform: translate(40vw, 35vh); width: 15vw; height: 15vh; border: 0.5vh solid #FE6807;}
+    87.5%{ transform: translate(18vw, 28vh); width: 12vw; height: 20vh; border: 1vh solid #FE6807;}
+    88.5%{ transform: translate(18vw, 28vh); width: 12vw; height: 20vh; border: 1vh solid #FE6807;}
 }
 /*
 .box23{
