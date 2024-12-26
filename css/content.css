@@ -283,11 +283,26 @@ body{
 .twist img{
     width: 88%;
 }
-/*@keyframes twist {
-    0%{transform: translateY(0vh); }
-    50%{transform: translateY(-3.15vh); transform: scale(1, 2);}
-    100%{transform: translateY(-6.3vh); }
-}*/
+@keyframes twist {
+    0%{transform: translateY(0vh) scale(0.6, 1); }
+    50%{transform: translateY(-3.15vh) scale(1, 1); }
+    100%{transform: translateY(-6.3vh) scale(0.6, 1); }
+}
+.twist1{
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 35%;
+    width: 50%;
+    animation: twist1 500ms infinite linear;
+}
+.twist1 img{
+    width: 50%;
+}
+@keyframes twist1 {
+    0%{transform: translateY(0v) }
+    50%{transform: translateY(5.442475vh) }
+    100%{transform: translateY(10.88495vh)  }
+}
 .box5{
     width: 13vw;
     height: 23vh;
@@ -445,23 +460,29 @@ body{
 }
 .box17{
     width: 100%;
-    height: 7vh;
+    height: 8.5vh;
     background: #000000;
     position: absolute;
     z-index: 2;
     margin-top: 59%;
     overflow: hidden;
 }
-.spl{
-    font-size: 100px;
-   font-family: sans-serif;
-   font-weight: 700;
-   text-transform: uppercase;
-   color: #444;
+.spl h1{
    white-space: nowrap;
+   font-size: 2.1vw;
+   word-spacing: 7vh;
+   color: #FE6807;
+   margin-left: 1%;
+   margin-top: 1.7%;
+   text-transform: uppercase;
+   animation: run 1.5s linear infinite;
 }
-.text1{
-    font-size: 2.6vw;
+@keyframes run {
+    0% {transform: translateX(0vh);}
+    100% {transform: translateX(-63.5vh);}
+}
+.spl h1:hover{
+    animation-play-state: paused;
 }
 .log{
     width: 72.8%;
@@ -473,21 +494,35 @@ body{
 .log img{
     width: 72.8%;
 }
+.box18{
+    width: 10vw;
+    height: 6vh;
+    background: #ff1c1c;
+    position: absolute;
+    display: block;
+    z-index: 2;
+    margin-top: 64%;
+    margin-left: 0%;
+    animation: blast 1s steps(1) infinite;
+}
+.box18 img{
+    width: 120%;
+}
 /*
+animation: run 4s linear infinite;
+@keyframes run {
+    from {
+       transform: translateX(0%);
+    }
+    Magic is here. This is the width of the elem with text after rendering the page 
+    to {
+        transform: translateX(-1683.35px);
+     }}
 @keyframes twist {
     0%{transform: translateY(-30vh)}
     100%{transform: translateY(-65.5vh)}
 }
-.gifka{
-    width: 50%;
-    position: absolute;
-    z-index: 3;
-    margin-top: 300%;
-    margin-left: 26%;
-}
-.gifka img{
-    width: 50%;
-}
+
 .animation:hover{
     animation-play-state: paused;
 }
