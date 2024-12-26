@@ -460,20 +460,20 @@ body{
 }
 .box17{
     width: 100%;
-    height: 8.5vh;
+    height: 8vh;
     background: #000000;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     margin-top: 59%;
     overflow: hidden;
 }
 .spl h1{
    white-space: nowrap;
-   font-size: 2.1vw;
+   font-size: 2.2vw;
    word-spacing: 7vh;
    color: #FE6807;
    margin-left: 1%;
-   margin-top: 1.7%;
+   margin-top: 1.4%;
    text-transform: uppercase;
    animation: run 1.5s linear infinite;
 }
@@ -495,20 +495,613 @@ body{
     width: 72.8%;
 }
 .box18{
-    width: 10vw;
-    height: 6vh;
-    background: #ff1c1c;
+    width: 15vw;
+    height: 100vh;
+    background-image: url(../img/liner.svg);
+    background-position: -7.5vh 0;
+    background-repeat: no-repeat;
+    background-size: 425vw, 50vw;
     position: absolute;
     display: block;
     z-index: 2;
-    margin-top: 64%;
+    margin-top: 63.7%;
     margin-left: 0%;
-    animation: blast 1s steps(1) infinite;
+    animation: lin 3s steps(1) infinite;
+    transition: 3s ease-in-out;
 }
 .box18 img{
     width: 120%;
 }
+@keyframes lin {
+    0% {background-position: -7.5vh 0;}
+    3.57% {background-position: -32.95vh 0;}
+    7.14% {background-position: -58.45vh 0;}
+    10.71% {background-position: -83.9vh 0;}
+    14.28% {background-position: -109.2vh 0;}
+    17.85% {background-position: -134.65vh 0;}
+    21.42% {background-position: -160.1vh 0;}
+    24.99% {background-position: -185.55vh 0;}
+    28.56% {background-position: -211vh 0;}
+    32.13% {background-position: -236.35vh 0;}
+    35.7% {background-position: -261.75vh 0;}
+    39.27% {background-position: -287.25vh 0;}
+    42.84% {background-position: -312.7vh 0;}
+    46.41% {background-position: -338.15vh 0;}
+    49.98% {background-position: -363.32vh 0;}
+    53.55% {background-position: -388.7vh 0;}
+    57.12% {background-position: -413.6vh 0;}
+    60.69% {background-position: -438.9vh 0;}
+    64.26% {background-position: -464.4vh 0;}
+    67.83% {background-position: -489.95vh 0;}
+    71.4% {background-position: -515.4vh 0;}
+    74.97% {background-position: -540.5vh 0;}
+    78.54% {background-position: -565.08vh 0;}
+    82.11% {background-position: -590.48vh 0;}
+    85.68% {background-position: -615.79vh 0;}
+    89.25% {background-position: -641.3vh 0;}
+    92.82% {background-position: -666.7vh 0;}
+    96.39% {background-position: -692vh 0;}
+}
+.box19{
+    width: 90vw;
+    height: 8.5vh;
+    background: #181BDF;
+    position: absolute;
+    z-index: 1;
+    margin-top: 63.7%;
+    margin-left: 15%;
+    overflow: hidden;
+}
+.orgliner{
+    position: absolute;
+    width: 127%;
+    margin-top: 0.8%;
+    animation: org 2s infinite linear;
+}
+.orgliner img{
+    width: 127%;
+}
+@keyframes org{
+    0% {transform: translateX(-37vw) scale(1, 1);}
+    50% {transform: translateX(-19vw) scale(1, 0.5);}
+    100% {transform: translateX(-0.8vw) scale(1, 1);}
+}
+.box20{
+    width: 100%;
+    height: 8.9vh;
+    background: #000000;
+    position: absolute;
+    z-index: 2;
+    margin-top: 114%;
+    margin-left: 0%;
+    overflow: hidden;
+}
+.kra{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 1%; 
+    animation: kra .9s infinite linear;
+}
+@keyframes kra{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra1{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 4.5%; 
+    animation: kra1 .3s infinite linear;
+}
+@keyframes kra1{
+    0% { background-color: none; }
+    10% { background-color: #FE6807; }
+    90% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra2{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 8%; 
+    animation: kra2 .1s infinite linear;
+}
+@keyframes kra2{
+    0% { background-color: none; }
+    10% { background-color: #FE6807; }
+    90% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra3{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 11.5%; 
+    animation: kra3 .6s infinite linear;
+}
+@keyframes kra3{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra4{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 15%; 
+    animation: kra4 .1s infinite linear;
+}
+@keyframes kra4{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra5{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 18.5%; 
+    animation: kra5 .13s infinite linear;
+}
+@keyframes kra5{
+    0% { background-color: none; }
+    10% { background-color: #FE6807; }
+    90% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra6{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 18.5%; 
+    animation: kra6 .4s infinite linear;
+}
+@keyframes kra6{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra7{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 22%; 
+    animation: kra7 .2s infinite linear;
+}
+@keyframes kra7{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra8{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 25.5%; 
+    animation: kra8 .15s infinite linear;
+}
+@keyframes kra8{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra9{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 29%; 
+    animation: kra9 .9s infinite linear;
+}
+@keyframes kra9{
+    0% { background-color: none; }
+    10% { background-color: #FE6807; }
+    90% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra10{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 32.5%; 
+    animation: kra10 .2s infinite linear;
+}
+@keyframes kra10{
+    0% { background-color: none; }
+    10% { background-color: #FE6807; }
+    90% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra11{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 36%; 
+    animation: kra11 .16s infinite linear;
+}
+@keyframes kra11{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra12{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 39.5%; 
+    animation: kra12 .2s infinite linear;
+}
+@keyframes kra12{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra13{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 43%; 
+    animation: kra13 .4s infinite linear;
+}
+@keyframes kra13{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra14{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 46.5%; 
+    animation: kra14 .10s infinite linear;
+}
+@keyframes kra14{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra15{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 50%; 
+    animation: kra15 .1s infinite linear;
+}
+@keyframes kra15{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra16{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 53.5%; 
+    animation: kra16 .5s infinite linear;
+}
+@keyframes kra16{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra17{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 57%; 
+    animation: kra17 .17s infinite linear;
+}
+@keyframes kra17{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra18{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 60.5%; 
+    animation: kra18 .2s infinite linear;
+}
+@keyframes kra18{
+    0% { background-color: none; }
+    10% { background-color: #FE6807; }
+    90% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra19{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 64%; 
+    animation: kra19 .3s infinite linear;
+}
+@keyframes kra19{
+    0% { background-color: none; }
+    10% { background-color: #FE6807; }
+    90% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra20{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 67.5%; 
+    animation: kra20 .1s infinite linear;
+}
+@keyframes kra20{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra21{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 71%; 
+    animation: kra21 .15s infinite linear;
+}
+@keyframes kra21{
+    0% { background-color: none; }
+    10% { background-color: #FE6807; }
+    90% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra22{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 74.5%; 
+    animation: kra22 .6s infinite linear;
+}
+@keyframes kra22{
+    0% { background-color: none; }
+    10% { background-color: #FE6807; }
+    90% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra23{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 78%; 
+    animation: kra23 .9s infinite linear;
+}
+@keyframes kra23{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra24{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 81.5%; 
+    animation: kra24 .7s infinite linear;
+}
+@keyframes kra24{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra25{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 85%; 
+    animation: kra25 .3s infinite linear;
+}
+@keyframes kra25{
+    0% { background-color: none; }
+    10% { background-color: #FE6807; }
+    90% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra26{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 88.5%; 
+    animation: kra26 .20s infinite linear;
+}
+@keyframes kra26{
+    0% { background-color: none; }
+    10% { background-color: #FE6807; }
+    90% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra27{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 92%; 
+    animation: kra27 .2s infinite linear;
+}
+@keyframes kra27{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.kra28{
+    width: 2.1vw;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 95.5%; 
+    animation: kra28 .13s infinite linear;
+}
+@keyframes kra28{
+    0% { background-color: none; }
+    20% { background-color: #FE6807; }
+    80% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+.box21{
+    width: 100%;
+    height: 8vh;
+    background: #181BDF;
+    position: absolute;
+    z-index: 3;
+    margin-top: 119%;
+    overflow: hidden;
+}
+.cleg h1{
+   white-space: nowrap;
+   font-size: 2.2vw;
+   word-spacing: 7vh;
+   color: #FE6807;
+   margin-left: 1%;
+   margin-top: 1.6%;
+   text-transform: uppercase;
+   animation: run1 1.5s linear infinite;
+}
+.cleg h1:hover{
+    animation-play-state: paused;
+}
+@keyframes run1 {
+    0% {transform: translateX(0vh);}
+    100% {transform: translateX(-62.7vh);}
+}
+.box22{
+    width: 105%;
+    margin-top: 123%;
+    position: absolute;
+    z-index: 1;
+    margin-left: -4.7%;
+}
+.box22 img{
+    width: 105%;
+}
+.box23{
+    width: 16vw;
+    height: 40vh;
+    border: 0.5vh solid #FE6807;
+    position: absolute;
+    z-index: 2;
+    animation: cuub 6s linear infinite;
+}
+@keyframes cuub{
+    0%{ transform: translateX(-98vh) translateY(200vw); border: 0.5vh solid #FE6807;}
+
+}
 /*
+@keyframes kr{
+0%{ transform: scale(1.1) translateX(16.5vw) translateY(205vh); border: 0.5vh solid #FE6807;}
+    15%{ transform: scale(1.1) translateX(16.5vw) translateY(205vh); border: 0.5vh solid #FE6807;}
+    100%{ width: 10vw;height: 4vh;border: 1vh solid #FE6807; transform: translate(150%,30%);}
+    0% { background-color: none; }
+    8% { background-color: #FE6807; }
+    92% { background-color: none; }
+    100% { background-color: #FE6807; }
+}
+@keyframes twist1 {
+    0%{transform: translateY(0v) }
+    50%{transform: translateY(5.442475vh) }
+    100%{transform: translateY(10.88495vh)  }
 animation: run 4s linear infinite;
 @keyframes run {
     from {
