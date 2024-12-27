@@ -8,3 +8,12 @@
 h1{ 
     font-family: "ABC-trial";
 }
+@font-face{
+    font-family: "ABC-tr";
+    src: url("../fonts/ABCGravityCyrillic-Condensed-Trial.otf");
+    font-style: bold;
+    font-weight: bold;
+}
+h2{ 
+    font-family: "ABC-tr";
+}

@@ -65,6 +65,9 @@ body{
     0%{transform: translateY(-30vh)}
     100%{transform: translateY(-73.1vh)}
 }
+.arrow:hover{
+    animation-play-state: paused;
+}
 .arrow1{
     width: 55%;
     position: absolute;
@@ -79,6 +82,9 @@ body{
     0%{transform: translateY(-30vh)}
     100%{transform: translateY(-73.0.5vh)}
 }
+.arrow1:hover{
+    animation-play-state: paused;
+}
 .arrow2{
     width: 55%;
     position: absolute;
@@ -88,6 +94,9 @@ body{
 }
 .arrow2 img{
     width: 55%;
+}
+.arrow2:hover{
+    animation-play-state: paused;
 }
 @keyframes upp {
     0%{transform: translateY(-30vh)}
@@ -224,6 +233,9 @@ body{
     50%{  height: 22vw; }
     100%{    height: 1vw;}
 }
+.palka:hover{
+    animation-play-state: paused;
+}
 .animation7{
     position: absolute;
     margin-top: 17%;
@@ -288,6 +300,9 @@ body{
     50%{transform: translateY(-3.15vh) scale(1, 1); }
     100%{transform: translateY(-6.3vh) scale(0.6, 1); }
 }
+.twist:hover{
+    animation-play-state: paused;
+}
 .twist1{
     position: absolute;
     margin-top: -50%;
@@ -302,6 +317,9 @@ body{
     0%{transform: translateY(0v) }
     50%{transform: translateY(5.442475vh) }
     100%{transform: translateY(10.88495vh)  }
+}
+.twist1:hover{
+    animation-play-state: paused;
 }
 .box5{
     width: 13vw;
@@ -345,6 +363,9 @@ body{
     50%{  width: 8vw; }
     100%{    width: 1vw;}
 }
+.box8:hover{
+    animation-play-state: paused;
+}
 .box9{
     width: 8vw;
     height: 2.5vh;
@@ -359,6 +380,9 @@ body{
     0%{    width: 0.5vw; }
     50%{  width: 11vw; }
     100%{    width: 0.5vw;}
+}
+.box9:hover{
+    animation-play-state: paused;
 }
 .box10{
     width: 6vw;
@@ -375,6 +399,9 @@ body{
     50%{  width: 9.5vw; }
     100%{    width: 1vw;}
 }
+.box10:hover{
+    animation-play-state: paused;
+}
 .box11{
     width: 1vw;
     height: 3.2svh;
@@ -389,6 +416,9 @@ body{
     0%{    width: 0.5vw; }
     50%{  width: 7vw; }
     100%{    width: 0.5vw;}
+}
+.box11:hover{
+    animation-play-state: paused;
 }
 .box12{
     width: 12vw;
@@ -413,6 +443,12 @@ body{
     50%{  width: 12vw; }
     100%{    width: 1vw;}
 }
+.box13:hover{
+    animation-play-state: paused;
+}
+.box4:hover{
+    animation-play-state: paused;
+}
 .box14{
     width: 3vw;
     height: 3.5vh;
@@ -427,6 +463,9 @@ body{
     0%{    width: 0.5vw; }
     50%{  width: 11vw; }
     100%{    width: 0.5vw;}
+}
+.box14:hover{
+    animation-play-state: paused;
 }
 .box15{
     width: 0.8vw;
@@ -443,6 +482,9 @@ body{
     50%{  width: 8vw; }
     100%{    width: 1vw;}
 }
+.box15:hover{
+    animation-play-state: paused;
+}
 .box16{
     width: 0.8vw;
     height: 2.8vh;
@@ -457,6 +499,9 @@ body{
     0%{    width: 0.5vw; }
     50%{  width: 10vw; }
     100%{    width: 0.5vw;}
+}
+.box16:hover{
+    animation-play-state: paused;
 }
 .box17{
     width: 100%;
@@ -570,6 +615,9 @@ body{
     50% {transform: translateX(-19vw) scale(1, 0.5);}
     100% {transform: translateX(-0.8vw) scale(1, 1);}
 }
+.orgliner:hover{
+    animation-play-state: paused;
+}
 .box20{
     width: 100%;
     height: 8.9vh;
@@ -606,12 +654,12 @@ body{
     80%{transform: translateX(-349.8vw);}
     100%{transform: translateX(-437.25vw);}
 }
-.li{
+.lih{
     position: absolute;
     width: 20vw;
     height: 8vh;
     z-index: 2;
-    margin-top: 69%;
+    margin-top: 69.1%;
     margin-left: 18.5%;
 }
 .lii{
@@ -629,6 +677,9 @@ body{
     50%{  width: 20vw; }
     100%{    width: 0.5vw;}
 }
+.lii:hover{
+    animation-play-state: paused;
+}
 .liii{
     position: absolute;
     width: 20vw;
@@ -643,6 +694,9 @@ body{
     0%{    width: 0.5vw; }
     50%{  width: 18vw; }
     100%{    width: 0.5vw;}
+}
+.liii:hover{
+    animation-play-state: paused;
 }
 .liiii{
     position: absolute;
@@ -659,15 +713,17 @@ body{
     50%{  width: 13vw; }
     100%{    width: 0.5vw;}
 }
-.li1{
+.liiii:hover{
+    animation-play-state: paused;
+}
+.lih1{
     position: absolute;
     width: 20vw;
     height: 8vh;
-    background-color: aqua;
     z-index: 2;
-    rotate: 180%;
-    margin-top: 105%;
-    margin-left: 60%;
+    rotate: 180deg;
+    margin-top: 106.1%;
+    margin-left: 76.2%;
 }
 .lii1{
     position: absolute;
@@ -684,6 +740,9 @@ body{
     50%{  width: 20vw; }
     100%{    width: 0.5vw;}
 }
+.lii1:hover{
+    animation-play-state: paused;
+}
 .liii2{
     position: absolute;
     width: 20vw;
@@ -699,6 +758,9 @@ body{
     50%{  width: 18vw; }
     100%{    width: 0.5vw;}
 }
+.liii2:hover{
+    animation-play-state: paused;
+}
 .liiii3{
     position: absolute;
     width: 20vw;
@@ -713,6 +775,27 @@ body{
     0%{    width: 0.5vw; }
     50%{  width: 13vw; }
     100%{    width: 0.5vw;}
+}
+.liiii3:hover{
+    animation-play-state: paused;
+}
+.tx{
+    font-size: 1.5vw;
+    position: absolute;
+    z-index: 4;
+    margin-top: 100.5%;
+    line-height: 115%;
+    margin-left: 23.8%;
+    color: #FE6807;
+}
+.tx1{
+    font-size: 1.5vw;
+    position: absolute;
+    z-index: 4;
+    margin-top: 78.5%;
+    line-height: 115%;
+    margin-left: 76.8%;
+    color: #FE6807;
 }
 .techn{
     position: absolute;
@@ -1634,7 +1717,9 @@ body{
 .strelka img{
     width: 160%;
 }
-
+.strelka:hover{
+    animation-play-state: paused;
+}
 @keyframes strelk {
     0%{transform: translateX(-48vw)}
     100%{transform: translateX(0vw)}
@@ -1672,6 +1757,15 @@ body{
     81.81%{transform: translateX(-396vw)}
     90.9%{transform: translateX(-440vw)}
     100%{transform: translateX(0vw)}
+}
+.sotr{
+    font-size: 2vw;
+    position: absolute;
+    z-index: 4;
+    margin-top: 186%;
+    line-height: 125%;
+    margin-left: 48%;
+    color: #FE6807;
 }
 .button{
     width: 2.1vw;
