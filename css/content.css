@@ -1681,7 +1681,7 @@ body{
     position: absolute;
     z-index: 2;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: 0%;
 }
 .micr img{
@@ -1711,7 +1711,7 @@ body{
     position: absolute;
     z-index: 4;
     width: 37%;
-    margin-top: 217%;
+    margin-top: 213%;
     margin-left: 7%;
     overflow: hidden;
 }
@@ -1722,7 +1722,7 @@ body{
     position: absolute;
     z-index: 4;
     width: 55%;
-    margin-top: 217%;
+    margin-top: 215%;
     margin-left: 30%;
     overflow: hidden;
 }
@@ -1733,7 +1733,7 @@ body{
     position: absolute;
     z-index: 4;
     width: 45%;
-    margin-top: 215%;
+    margin-top: 213%;
     margin-left: 75%;
     overflow: hidden;
 }
@@ -1743,13 +1743,35 @@ body{
 .star3{
     position: absolute;
     z-index: 4;
-    width: 30%;
-    margin-top: 215%;
-    margin-left: 25%;
+    width:38%;
+    margin-top: 232%;
+    margin-left: 18%;
     overflow: hidden;
 }
 .star3 img{
-    width: %;
+    width: 38%;
+}
+.star4{
+    position: absolute;
+    z-index: 4;
+    width: 35%;
+    margin-top: 230%;
+    margin-left: 70%;
+    overflow: hidden;
+}
+.star4 img{
+    width: 35%;
+}
+.star5{
+    position: absolute;
+    z-index: 4;
+    width:35%;
+    margin-top: 218%;
+    margin-left: 62%;
+    overflow: hidden;
+}
+.star5 img{
+    width: 35%;
 }
 /*
 .box23{
