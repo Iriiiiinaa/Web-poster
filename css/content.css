@@ -1938,7 +1938,7 @@ body{
     z-index: 4;
     width: 45%;
     margin-top: 213%;
-    margin-left: 80%;
+    margin-left: 50%;
     overflow: hidden;
     animation: star2 1s linear infinite;
 }
@@ -2003,7 +2003,7 @@ body{
     z-index: 4;
     width:35%;
     margin-top: 218%;
-    margin-left: 68%;
+    margin-left: 50%;
     overflow: hidden;
     animation: star4 2s linear infinite;
 }
