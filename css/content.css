@@ -20,11 +20,11 @@ body{
     margin-top: 1.5%;
     margin-left: 2%;
 }
-.tt1{
+.ttY{
     position: absolute;
     z-index: 4;
     margin-top: 1.5%;
-    margin-left: 62.5%;
+    margin-left: 64.5%;
 }
 .liner{
     position: absolute;
@@ -610,10 +610,54 @@ body{
     position: absolute;
     width: 20vw;
     height: 8vh;
-    background-color: aqua;
     z-index: 2;
     margin-top: 69%;
     margin-left: 18.5%;
+}
+.lii{
+    position: absolute;
+    width: 20vw;
+    height: 2.5vh;
+    background-color: #FE6807;
+    z-index: 2;
+    margin-top: 0%;
+    margin-left: 0%;
+    animation: lii 3s infinite linear;
+}
+@keyframes lii {
+    0%{    width: 0.5vw; }
+    50%{  width: 20vw; }
+    100%{    width: 0.5vw;}
+}
+.liii{
+    position: absolute;
+    width: 20vw;
+    height: 1.8vh;
+    background-color: #FE6807;
+    z-index: 2;
+    margin-top: 9%;
+    margin-left: 0%;
+    animation: liii 5s infinite linear;
+}
+@keyframes liii {
+    0%{    width: 0.5vw; }
+    50%{  width: 18vw; }
+    100%{    width: 0.5vw;}
+}
+.liiii{
+    position: absolute;
+    width: 20vw;
+    height: 2vh;
+    background-color: #FE6807;
+    z-index: 2;
+    margin-top: 16.3%;
+    margin-left: 0%;
+    animation: liiii 4s infinite linear;
+}
+@keyframes liiii {
+    0%{    width: 0.5vw; }
+    50%{  width: 13vw; }
+    100%{    width: 0.5vw;}
 }
 .li1{
     position: absolute;
@@ -621,8 +665,54 @@ body{
     height: 8vh;
     background-color: aqua;
     z-index: 2;
+    rotate: 180%;
     margin-top: 105%;
     margin-left: 60%;
+}
+.lii1{
+    position: absolute;
+    width: 20vw;
+    height: 2.5vh;
+    background-color: #FE6807;
+    z-index: 2;
+    margin-top: 0%;
+    margin-left: 0%;
+    animation: lii1 3s infinite linear;
+}
+@keyframes lii1 {
+    0%{    width: 0.5vw; }
+    50%{  width: 20vw; }
+    100%{    width: 0.5vw;}
+}
+.liii2{
+    position: absolute;
+    width: 20vw;
+    height: 1.8vh;
+    background-color: #FE6807;
+    z-index: 2;
+    margin-top: 9%;
+    margin-left: 0%;
+    animation: liii2 5s infinite linear;
+}
+@keyframes liii2 {
+    0%{    width: 0.5vw; }
+    50%{  width: 18vw; }
+    100%{    width: 0.5vw;}
+}
+.liiii3{
+    position: absolute;
+    width: 20vw;
+    height: 2vh;
+    background-color: #FE6807;
+    z-index: 2;
+    margin-top: 16.3%;
+    margin-left: 0%;
+    animation: liiii3 4s infinite linear;
+}
+@keyframes liiii3 {
+    0%{    width: 0.5vw; }
+    50%{  width: 13vw; }
+    100%{    width: 0.5vw;}
 }
 .techn{
     position: absolute;
