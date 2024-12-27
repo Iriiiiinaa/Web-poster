@@ -5,7 +5,7 @@ body{
 }
 .box{
     width: 100%;
-    height: 7vh;
+    height: 4vw;
     background: #FE6807;
     position: absolute;
     z-index: 4;
@@ -29,7 +29,7 @@ body{
 .liner{
     position: absolute;
     z-index: 4;
-    border: 0.5vh solid rgb(0, 0, 0);
+    border: 0.3vw solid rgb(0, 0, 0);
     width: 100%;
     margin-top: 4%; 
 }
@@ -44,7 +44,7 @@ body{
 }
 .box1{
     width: 5.5vw;
-    height: 94vh;
+    height: 94vw;
     background: #000000;
     position: absolute;
     z-index: 2;
@@ -62,8 +62,8 @@ body{
     width: 55%;
 }
 @keyframes up {
-    0%{transform: translateY(-30vh)}
-    100%{transform: translateY(-73.1vh)}
+    0%{transform: translateY(-15vw)}
+    100%{transform: translateY(-40vw)}
 }
 .arrow:hover{
     animation-play-state: paused;
@@ -79,8 +79,8 @@ body{
     width: 55%;
 }
 @keyframes upp {
-    0%{transform: translateY(-30vh)}
-    100%{transform: translateY(-73.0.5vh)}
+    0%{transform: translateY(-15vw)}
+    100%{transform: translateY(-40vw)}
 }
 .arrow1:hover{
     animation-play-state: paused;
@@ -99,12 +99,12 @@ body{
     animation-play-state: paused;
 }
 @keyframes upp {
-    0%{transform: translateY(-30vh)}
-    100%{transform: translateY(-73.1vh)}
+    0%{transform: translateY(-15vw)}
+    100%{transform: translateY(-40vw)}
 }
 .box2{
     width: 11.7vw;
-    height: 72vh;
+    height: 63vw;
     background: #FE6807;
     position: absolute;
     z-index: 2;
@@ -113,7 +113,7 @@ body{
 }
 .cub{
     width: 4.2vw;
-    height: 6.2vh;
+    height: 4vw;
 }
 .animation{
     position: absolute;
@@ -121,8 +121,8 @@ body{
     margin-left: 30%;
     animation: color .6s infinite linear;
     /* animation-delay: 9s; */
-    border-radius: 2vh;
-    border: 0.6vh solid #181BDF;
+    border-radius: 1vw;
+    border: 0.36vw solid #181BDF;
 }
 @keyframes color{
     0% { background-color: none; }
@@ -136,8 +136,8 @@ body{
     margin-left: 30%;
     animation: color1 .50s infinite linear;
     /* animation-delay: 9s; */
-    border-radius: 2vh;
-    border: 0.6vh solid #181BDF;
+    border-radius: 1vw;
+    border: 0.36vw solid #181BDF;
 }
 @keyframes color1{
     0% { background-color: none; }
@@ -151,8 +151,8 @@ body{
     margin-left: 30%;
     animation: color2 .30s infinite linear;
     /* animation-delay: 9s; */
-    border-radius: 2vh;
-    border: 0.6vh solid #181BDF;
+    border-radius: 1vw;
+    border: 0.36vw solid #181BDF;
 }
 @keyframes color2{
     0% { background-color: none; }
@@ -166,8 +166,8 @@ body{
     margin-left: 30%;
     animation: color3 .40s infinite linear;
     /* animation-delay: 9s; */
-    border-radius: 2vh;
-    border: 0.6vh solid #181BDF;
+    border-radius: 1vw;
+    border: 0.36vw solid #181BDF;
 }
 @keyframes color3{
     0% { background-color: none; }
@@ -181,8 +181,8 @@ body{
     margin-left: 30%;
     animation: color4 .35s infinite linear;
     /* animation-delay: 9s; */
-    border-radius: 2vh;
-    border: 0.6vh solid #181BDF;
+    border-radius: 1vw;
+    border: 0.36vw solid #181BDF;
 }
 @keyframes color4{
     0% { background-color: none; }
@@ -196,8 +196,8 @@ body{
     margin-left: 30%;
     animation: color5 .30s infinite linear;
     /* animation-delay: 9s; */
-    border-radius: 2vh;
-    border: 0.6vh solid #181BDF;
+    border-radius: 1vw;
+    border: 0.36vw solid #181BDF;
 }
 @keyframes color5{
     0% { background-color: none; }
@@ -208,7 +208,7 @@ body{
 
 .box3{
     width: 11.7vw;
-    height: 72vh;
+    height: 42.5vw;
     background: #000000;
     position: absolute;
     z-index: 2;
@@ -218,7 +218,7 @@ body{
 }
 .palka{
     width: 1.6vw;
-    height: 2vh;
+    height: 1vw;
 }
 .animation6{
     position: absolute;
@@ -277,7 +277,7 @@ body{
 }
 .box4{
     width: 11.7vw;
-    height: 72vh;
+    height: 42.5vw;
     background: #FE6807;
     position: absolute;
     z-index: 2;
@@ -296,9 +296,9 @@ body{
     width: 88%;
 }
 @keyframes twist {
-    0%{transform: translateY(0vh) scale(0.6, 1); }
-    50%{transform: translateY(-3.15vh) scale(1, 1); }
-    100%{transform: translateY(-6.3vh) scale(0.6, 1); }
+    0%{transform: translateY(0vw) scale(0.6, 1); }
+    50%{transform: translateY(-1.8vw) scale(1, 1); }
+    100%{transform: translateY(-3.6vw) scale(0.6, 1); }
 }
 .twist:hover{
     animation-play-state: paused;
@@ -314,17 +314,16 @@ body{
     width: 50%;
 }
 @keyframes twist1 {
-    0%{transform: translateY(0v) }
-    50%{transform: translateY(5.442475vh) }
-    100%{transform: translateY(10.88495vh)  }
+    0%{transform: translateY(-1vw) }
+    100%{transform: translateY(5vw)  }
 }
 .twist1:hover{
     animation-play-state: paused;
 }
 .box5{
     width: 13vw;
-    height: 23vh;
-    border: 1vh solid #181BDF;
+    height: 13.5vw;
+    border: 0.5vw solid #181BDF;
     position: absolute;
     z-index: 3;
     margin-top: 21%;
@@ -332,8 +331,8 @@ body{
 }
 .box6{
     width: 13vw;
-    height: 23vh;
-    border: 1vh solid #181BDF;
+    height: 13.5vw;
+    border: 0.5vw solid #181BDF;
     position: absolute;
     z-index: 3;
     margin-top: 19%;
@@ -341,7 +340,7 @@ body{
 }
 .box7{
     width: 13.8vw;
-    height: 14vh;
+    height: 8vw;
     position: absolute;
     z-index: 3;
     margin-top: 20.2%;
@@ -350,7 +349,7 @@ body{
 }
 .box8{
     width: 8vw;
-    height: 3vh;
+    height: 1.5vw;
     background-color:  #181BDF;
     position: absolute;
     z-index: 3;
@@ -368,7 +367,7 @@ body{
 }
 .box9{
     width: 8vw;
-    height: 2.5vh;
+    height: 1.375vw;
     background-color:  #181BDF;
     position: absolute;
     z-index: 3;
@@ -386,7 +385,7 @@ body{
 }
 .box10{
     width: 6vw;
-    height: 4.2vh;
+    height: 2.31vw;
     background-color:  #181BDF;
     position: absolute;
     z-index: 3;
@@ -404,7 +403,7 @@ body{
 }
 .box11{
     width: 1vw;
-    height: 3.2svh;
+    height: 1.76vw;
     background-color:  #181BDF;
     position: absolute;
     z-index: 3;
@@ -422,7 +421,7 @@ body{
 }
 .box12{
     width: 12vw;
-    height: 14vh;
+    height: 7.7vw;
     position: absolute;
     z-index: 3;
     margin-top: 22%;
@@ -430,7 +429,7 @@ body{
 }
 .box13{
     width: 0.8vw;
-    height: 2.3vh;
+    height: 1.265vw;
     background-color:  #181BDF;
     position: absolute;
     z-index: 3;
@@ -451,7 +450,7 @@ body{
 }
 .box14{
     width: 3vw;
-    height: 3.5vh;
+    height: 1.925vw;
     background-color:  #181BDF;
     position: absolute;
     z-index: 3;
@@ -469,7 +468,7 @@ body{
 }
 .box15{
     width: 0.8vw;
-    height: 3.3vh;
+    height: 1.815vw;
     background-color:  #181BDF;
     position: absolute;
     z-index: 3;
@@ -487,7 +486,7 @@ body{
 }
 .box16{
     width: 0.8vw;
-    height: 2.8vh;
+    height: 1.54vw;
     background-color:  #181BDF;
     position: absolute;
     z-index: 3;
@@ -505,7 +504,7 @@ body{
 }
 .box17{
     width: 100%;
-    height: 8vh;
+    height: 4.7vw;
     background: #000000;
     position: absolute;
     z-index: 3;
@@ -515,7 +514,7 @@ body{
 .spl h1{
    white-space: nowrap;
    font-size: 2.2vw;
-   word-spacing: 7vh;
+   word-spacing: 3.85vw;
    color: #FE6807;
    margin-left: 1%;
    margin-top: 1.4%;
@@ -523,8 +522,8 @@ body{
    animation: run 1.5s linear infinite;
 }
 @keyframes run {
-    0% {transform: translateX(0vh);}
-    100% {transform: translateX(-63.5vh);}
+    0% {transform: translateX(0vw);}
+    100% {transform: translateX(-37.7vw);}
 }
 .spl h1:hover{
     animation-play-state: paused;
@@ -541,9 +540,9 @@ body{
 }
 .box18{
     width: 15vw;
-    height: 100vh;
+    height: 66vw;
     background-image: url(../img/liner.svg);
-    background-position: -7.5vh 0;
+    background-position: -4.125vw 0;
     background-repeat: no-repeat;
     background-size: 425vw, 50vw;
     position: absolute;
@@ -558,41 +557,41 @@ body{
     width: 120%;
 }
 @keyframes lin {
-    0% {background-position: -7.5vh 0;}
-    3.57% {background-position: -32.95vh 0;}
-    7.14% {background-position: -58.45vh 0;}
-    10.71% {background-position: -83.9vh 0;}
-    14.28% {background-position: -109.2vh 0;}
-    17.85% {background-position: -134.65vh 0;}
-    21.42% {background-position: -160.1vh 0;}
-    24.99% {background-position: -185.55vh 0;}
-    28.56% {background-position: -211vh 0;}
-    32.13% {background-position: -236.35vh 0;}
-    35.7% {background-position: -261.75vh 0;}
-    39.27% {background-position: -287.25vh 0;}
-    42.84% {background-position: -312.7vh 0;}
-    46.41% {background-position: -338.15vh 0;}
-    49.98% {background-position: -363.32vh 0;}
-    53.55% {background-position: -388.7vh 0;}
-    57.12% {background-position: -413.6vh 0;}
-    60.69% {background-position: -438.9vh 0;}
-    64.26% {background-position: -464.4vh 0;}
-    67.83% {background-position: -489.95vh 0;}
-    71.4% {background-position: -515.4vh 0;}
-    74.97% {background-position: -540.5vh 0;}
-    78.54% {background-position: -565.08vh 0;}
-    82.11% {background-position: -590.48vh 0;}
-    85.68% {background-position: -615.79vh 0;}
-    89.25% {background-position: -641.3vh 0;}
-    92.82% {background-position: -666.7vh 0;}
-    96.39% {background-position: -692vh 0;}
+    0% {background-position: -4.125vw 0;}
+    3.57% {background-position: -19.05vw 0;}
+    7.14% {background-position: -33.975vw 0;}
+    10.71% {background-position: -48.9vw 0;}
+    14.28% {background-position: -63.825vw 0;}
+    17.85% {background-position: -78.75vw 0;}
+    21.42% {background-position: -93.665vw 0;}
+    24.99% {background-position: -108.6vw 0;}
+    28.56% {background-position: -123.525vw 0;}
+    32.13% {background-position: -138.355vw 0;}
+    35.7% {background-position: -153.25vw 0;}
+    39.27% {background-position: -168.15vw 0;}
+    42.84% {background-position: -183.05vw 0;}
+    46.41% {background-position: -198vw 0;}
+    49.98% {background-position: -212.8vw 0;}
+    53.55% {background-position: -227.62vw 0;}
+    57.12% {background-position: -242.3vw 0;}
+    60.69% {background-position: -257.1vw 0;}
+    64.26% {background-position: -272.1vw 0;}
+    67.83% {background-position: -287.68vw 0;}
+    71.4% {background-position: -303.26vw 0;}
+    74.97% {background-position: -318.52vw 0;}
+    78.54% {background-position: -332.455vw 0;}
+    82.11% {background-position: -347.38vw 0;}
+    85.68% {background-position: -362.305vw 0;}
+    89.25% {background-position: -377.23vw 0;}
+    92.82% {background-position: -392.155vw 0;}
+    96.39% {background-position: -407.08vw 0;}
 }
 .box18:hover{
     animation-play-state: paused;
 }
 .box19{
     width: 90vw;
-    height: 8.5vh;
+    height: 4.675vw;
     background: #181BDF;
     position: absolute;
     z-index: 2;
@@ -620,7 +619,7 @@ body{
 }
 .box20{
     width: 100%;
-    height: 8.9vh;
+    height: 5vw;
     background: #000000;
     position: absolute;
     z-index: 4;
@@ -631,7 +630,7 @@ body{
 .gl{
     position: absolute;
     width: 100%;
-    height: 200vh;
+    height: 115vw;
     z-index: 1;
     overflow: hidden;
 }
@@ -657,7 +656,7 @@ body{
 .lih{
     position: absolute;
     width: 20vw;
-    height: 8vh;
+    height: 5vw;
     z-index: 2;
     margin-top: 69.1%;
     margin-left: 18.5%;
@@ -665,7 +664,7 @@ body{
 .lii{
     position: absolute;
     width: 20vw;
-    height: 2.5vh;
+    height: 1.4vw;
     background-color: #FE6807;
     z-index: 2;
     margin-top: 0%;
@@ -683,7 +682,7 @@ body{
 .liii{
     position: absolute;
     width: 20vw;
-    height: 1.8vh;
+    height: 1vw;
     background-color: #FE6807;
     z-index: 2;
     margin-top: 9%;
@@ -701,7 +700,7 @@ body{
 .liiii{
     position: absolute;
     width: 20vw;
-    height: 2vh;
+    height: 1vw;
     background-color: #FE6807;
     z-index: 2;
     margin-top: 16.3%;
@@ -719,7 +718,7 @@ body{
 .lih1{
     position: absolute;
     width: 20vw;
-    height: 8vh;
+    height: 4.4vw;
     z-index: 2;
     rotate: 180deg;
     margin-top: 106.1%;
@@ -728,7 +727,7 @@ body{
 .lii1{
     position: absolute;
     width: 20vw;
-    height: 2.5vh;
+    height: 1.4vw;
     background-color: #FE6807;
     z-index: 2;
     margin-top: 0%;
@@ -746,7 +745,7 @@ body{
 .liii2{
     position: absolute;
     width: 20vw;
-    height: 1.8vh;
+    height: 1vw;
     background-color: #FE6807;
     z-index: 2;
     margin-top: 9%;
@@ -764,7 +763,7 @@ body{
 .liiii3{
     position: absolute;
     width: 20vw;
-    height: 2vh;
+    height: 1vw;
     background-color: #FE6807;
     z-index: 2;
     margin-top: 16.3%;
